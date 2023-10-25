@@ -1,5 +1,11 @@
+const variants = {
+  
+}
+
 const Links = () => {
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
+  const items = ["Home", "Servicios", "Portfolio", "Contacto", "Sobre Nosotros"];
+
+
 
   return (
     <div className="links">
