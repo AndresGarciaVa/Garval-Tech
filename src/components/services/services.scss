@@ -8,7 +8,7 @@
 
     .textContainer{
         flex: 1;
-        align-self:flex-end;
+        align-self:center;
         display: flex;
         align-items:center;
         gap: 20px;
@@ -16,14 +16,20 @@
         p{
             font-weight: 200;
             font-size: 20px;
-            color: gray;
-            text-align: right;
+            color: rgb(184, 184, 184);
+            text-align: center;
+             
         }
 
         hr{
             width: 500px;
             border:none;
             border-top: 0.5px solid gray;
+        }
+
+        .hr2{
+            width: 500px;
+            border:none;
         }
     }
     .titleContainer{
@@ -46,7 +52,7 @@
             }
 
             h1{
-                font-size: 80px;
+                font-size: 96px;
                 font-weight: 100;
             }
 
