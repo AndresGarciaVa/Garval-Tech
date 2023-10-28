@@ -3,6 +3,7 @@ import "./app.scss";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
+import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
 const App = () => {
@@ -18,12 +19,12 @@ const App = () => {
       <section>
         <Services/>
       </section>
+      <Portfolio />
+
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
+
       <section id="Contacto">Contact</section>
       {/* <Test/> */}
     </div>
