@@ -30,20 +30,22 @@ const Contacto = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Cuéntanos<br></br>Tu Idea!</motion.h1>
+
         <motion.div className="item" variants={variants}>
           <h2>Correo</h2>
           <span>prueba@prueba.com</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
-          <h2>Dirección</h2>
-          <span>Colombia</span>
-        </motion.div>
-
-        <motion.div className="item" variants={variants}>
           <h2>Telefono</h2>
           <span>+57 12345678</span>
         </motion.div>
+
+        <motion.div className="item" variants={variants}>
+          <h2>Made In Colombia ❤️</h2>
+          {/* <span>Colombia</span> */}
+        </motion.div>
+
       </motion.div>
       <div className="formContainer">
         <motion.div
