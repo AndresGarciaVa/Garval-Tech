@@ -11,7 +11,7 @@ const variants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.9,
       staggerChildren: 0.1,
     },
   },
@@ -29,7 +29,7 @@ const Contacto = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Trabajemos juntos!</motion.h1>
+        <motion.h1 variants={variants}>Cuéntanos<br></br>Tu Idea!</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Correo</h2>
           <span>prueba@prueba.com</span>
