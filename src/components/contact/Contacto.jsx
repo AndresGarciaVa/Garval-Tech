@@ -20,7 +20,14 @@ const Contacto = () => {
           <span>+57 12345678</span>
         </div>
       </div>
-      <div className="formContainer"></div>
+      <div className="formContainer">
+        <form>
+          <input type="text" required placeholder="Nombre" />
+          <input type="email" required placeholder="Correo" />
+          <textarea rows={8} placeholder="Mensaje" />
+          <button>Enviar</button>
+        </form>
+      </div>
     </div>
 
   )
