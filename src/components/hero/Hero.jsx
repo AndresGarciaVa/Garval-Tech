@@ -47,14 +47,14 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>GARVAL</motion.h2>
+          <motion.h2 variants={textVariants}>GARVAL TECHNOLOGIES</motion.h2>
           <motion.h1 variants={textVariants}>
             Diseño y Desarrollo de aplicaciones Low-Code
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            {/* <motion.button variants={textVariants}>
               See the latest works
-            </motion.button>
+            </motion.button> */}
             <motion.button variants={textVariants}>Contáctanos</motion.button>
           </motion.div>
           <motion.img

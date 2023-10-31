@@ -13,13 +13,17 @@
             font-weight: bold;
         }
 
+        .img2{
+            width:80px;
+        }
+
         .social{
             display: flex;
             gap: 20px;
 
             img{
-                width: 18px;
-                height: 18px;
+                width: 24px;
+                height: 24px;
             }
         }
     }
