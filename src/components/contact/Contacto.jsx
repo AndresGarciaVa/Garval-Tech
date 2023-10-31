@@ -33,12 +33,12 @@ const Contacto = () => {
 
         <motion.div className="item" variants={variants}>
           <h2>Correo</h2>
-          <span>prueba@prueba.com</span>
+          <span>garvaltech@gmail.com</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
-          <h2>Telefono</h2>
-          <span>+57 12345678</span>
+          <h2>Teléfono</h2>
+          <span>+57 3212616242</span>
         </motion.div>
 
         <motion.div className="item" variants={variants}>
