@@ -25,8 +25,22 @@ const Parallax = ({ type }) => {
       }}
     >
       <motion.h1 style={{ y: yText }}>
-        {type === "servicios" ? "Qué Hacemos?" : "Qué Hicimos?"}
+        {type === "servicios" ? (
+          "Qué Hacemos?"
+        ) : (
+          <h2>
+            SOBRE NOSOTROS<br/><br/>
+            Creamos apps móviles low-code para tu negocio, proyecto o idea. <br/>
+            Usamos una tecnología innovadora y eficiente que nos permite crear <br/>
+            aplicaciones profesionales y atractivas en poco tiempo y a bajo <br/>
+            costo. Te ofrecemos un servicio personalizado y de calidad, donde <br/>
+            nos encargamos de todo el proceso de desarrollo. Contáctanos hoy <br/>
+            mismo y te ayudaremos a crear la app móvil que necesitas.<br/>
+            
+          </h2>
+        )}
       </motion.h1>
+
       <motion.div className="mountains"></motion.div>
       <motion.div
         className="planets"

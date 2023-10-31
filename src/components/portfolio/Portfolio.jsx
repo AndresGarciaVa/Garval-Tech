@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Desarrollo de Apps Low-Code",
-    img: "https://drive.google.com/file/d/1K_dVKlxJxcJiVz2kknzmWS_XlEKnzbBo/view?usp=drive_link",
+    img: "img1.png",
     desc: "lorem Ips"
   },
   {
