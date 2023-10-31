@@ -5,20 +5,20 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=400",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+    title: "Desarrollo de Apps Low-Code",
+    img: "https://drive.google.com/file/d/1K_dVKlxJxcJiVz2kknzmWS_XlEKnzbBo/view?usp=drive_link",
+    desc: "lorem Ips"
   },
   {
     id: 2,
-    title: "Next.js Commerce",
-    img: "https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=400",
+    title: "Diseño Ui/Ux",
+    img: "https://th.bing.com/th/id/OIG.FZnPOyqsh2fZYHvcYK6M?pid=ImgGn",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
   },
   {
     id: 3,
     title: "Vanilla JSS",
-    img: "https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "https://th.bing.com/th/id/OIG.y1.epARQKBYS1y_o7KkD?pid=ImgGn",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
   },
   {
