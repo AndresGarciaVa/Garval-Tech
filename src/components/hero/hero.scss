@@ -65,13 +65,21 @@
         height: 100%;
         position: absolute;
         top: 85px;
-        right:260px;
+        right:300px;
+        max-height: 700px;
 
         @include mobile{
             height:50%;
             width: 100%;
             top:unset;
             bottom: 0;
+            
+            .hero2{
+                object-fit: contain;
+                max-height: 280px;
+                margin-left:311px;
+                margin-top: 40px;
+            }
         }
 
         img{
@@ -80,13 +88,6 @@
             object-fit: cover;
         }
 
-        .hero2{
-            object-fit: contain;
-            width: auto;
-            max-height: 280px;
-            margin-left:311px;
-            margin-top: 40px;
-        }
     }
 
 

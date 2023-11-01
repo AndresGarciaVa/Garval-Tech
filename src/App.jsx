@@ -18,19 +18,19 @@ const App = () => {
         <Hero />
       </section>
 
-      {/* <section id="Sobre Nosotros">
-        <About type="about" />
+      {/* <section id="Sobre-Nosotros">
+        <About type="sobre-nosotros" />
       </section> */}
       
-      {/* <section id="Servicios">
+      <section id="Servicios">
         <Parallax type="servicios" />
       </section>
-      <section> */}
-{/* 
+
+      <section>
         <Services/>
       </section>
       
-      <Portfolio/> */}
+      {/* <Portfolio/> */}
       
       {/* <section id="Portfolio">
         <Parallax type="portfolio" />

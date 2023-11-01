@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .services{
     background: linear-gradient(180deg, #0c0c1d, 111132);
     height: 100%;
@@ -13,6 +15,13 @@
         align-items:center;
         gap: 20px;
 
+        
+        @include mobile{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+          }
+
         p{
             font-weight: 200;
             font-size: 20px;
@@ -26,6 +35,12 @@
             border:none;
             border-top: 0.5px solid gray;
         }
+
+        @include mobile{
+            width: 300px;
+            
+        
+          }
 
         .hr2{
             width: 500px;
@@ -54,6 +69,11 @@
             h1{
                 font-size: 96px;
                 font-weight: 100;
+            }
+
+            
+            @include mobile{
+                
             }
 
             button{
