@@ -5,7 +5,7 @@ import { useRef } from "react";
 const variants = {
   initial: {
     x: -500,
-    y: 100,
+    y: 20,
     opacity: 0,
   },
   animate: {
