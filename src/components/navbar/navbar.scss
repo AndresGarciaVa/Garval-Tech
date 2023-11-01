@@ -1,3 +1,6 @@
+@import "../../app.scss";
+
+
 .navbar{
     height: 100px;
 
@@ -9,12 +12,24 @@
         justify-content: space-between;
         height: 100%;
 
+        @include mobile{
+            justify-content: flex-end;
+            padding: 20px;
+          }
+
         span{
             font-weight: bold;
+
+            @include mobile{
+                display: none;
+              }
         }
 
         .img2{
             width:80px;
+            @include mobile{
+                display: none;
+              }
         }
 
         .social{
@@ -24,6 +39,7 @@
             img{
                 width: 24px;
                 height: 24px;
+                
             }
         }
     }
