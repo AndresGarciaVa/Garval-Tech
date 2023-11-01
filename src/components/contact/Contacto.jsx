@@ -1,6 +1,8 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./contacto.scss";
 import { motion, useInView } from "framer-motion";
+import emailjs from '@emailjs/browser';
+
 
 const variants = {
   initial: {
@@ -19,7 +21,23 @@ const variants = {
 
 const Contacto = () => {
   const ref = useRef();
+  const formRef = useRef();
+  const [error, setError] = useState(false)
+  const [success, setSuccess] = useState(false)
+
   const isInView = useInView(ref, { margin: "-100px" });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5s8cnmt', 'template_hirsk7i', formRef.current, 'YRwv2IMGWm3BrpESB')
+      .then((result) => {
+          setSuccess(true)
+      }, (error) => {
+          setError(true)
+      });
+  };
+
   return (
     <motion.div
       ref={ref}
@@ -78,14 +96,18 @@ const Contacto = () => {
           </svg>
         </motion.div>
         <motion.form
+          ref={formRef}
+          onSubmit={sendEmail}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Nombre" />
-          <input type="email" required placeholder="Correo" />
-          <textarea rows={8} placeholder="Mensaje" />
+          <input type="text" required placeholder="Nombre" name="name"/>
+          <input type="email" required placeholder="Correo" name="email"/>
+          <textarea rows={8} placeholder="Mensaje" name="message"/>
           <button>Enviar</button>
+          {error && "Error"}
+          {success && "Success"}
         </motion.form>
       </div>
     </motion.div>
