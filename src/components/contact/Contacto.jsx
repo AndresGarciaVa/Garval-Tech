@@ -1,8 +1,7 @@
 import { useRef, useState } from "react";
 import "./contacto.scss";
 import { motion, useInView } from "framer-motion";
-import emailjs from '@emailjs/browser';
-
+import emailjs from "@emailjs/browser";
 
 const variants = {
   initial: {
@@ -22,20 +21,29 @@ const variants = {
 const Contacto = () => {
   const ref = useRef();
   const formRef = useRef();
-  const [error, setError] = useState(false)
-  const [success, setSuccess] = useState(false)
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const isInView = useInView(ref, { margin: "-100px" });
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5s8cnmt', 'template_hirsk7i', formRef.current, 'YRwv2IMGWm3BrpESB')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_5s8cnmt",
+        "template_hirsk7i",
+        formRef.current,
+        "YRwv2IMGWm3BrpESB"
+      )
+      .then(
+        (result) => {
           setSuccess(true)
-      }, (error) => {
-          setError(true)
-      });
+        },
+        (error) => {
+          setError(true);
+        }
+      );
   };
 
   return (
@@ -47,7 +55,9 @@ const Contacto = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Cuéntanos<br></br>Tu Idea!</motion.h1>
+        <motion.h1 variants={variants}>
+          Cuéntanos<br></br>Tu Idea!
+        </motion.h1>
 
         <motion.div className="item" variants={variants}>
           <h2>Correo</h2>
@@ -63,8 +73,8 @@ const Contacto = () => {
           <h2>Made In Colombia ❤️</h2>
           {/* <span>Colombia</span> */}
         </motion.div>
-
       </motion.div>
+
       <div className="formContainer">
         <motion.div
           className="phoneSvg"
@@ -102,8 +112,8 @@ const Contacto = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Nombre" name="name"/>
-          <input type="email" required placeholder="Correo" name="email"/>
+          <input type="text" required placeholder="Nombre" name="name" />
+          <input type="email" required placeholder="Correo" name="email" />
           <textarea rows={8} placeholder="Mensaje" name="message"/>
           <button>Enviar</button>
           {error && "Error"}
