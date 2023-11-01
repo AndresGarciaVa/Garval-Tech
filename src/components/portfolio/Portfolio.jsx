@@ -7,26 +7,26 @@ const items = [
     id: 1,
     title: "Desarrollo de Apps Low-Code",
     img: "img1.png",
-    desc: "lorem Ips"
+    desc: "¿Quieres tener una aplicación web o móvil? Nosotros te la creamos a tu gusto, usamos tecnología low-code. Podemos crear aplicaciones para cualquier tipo de negocio o proyecto, rápidas, funcionales, atractivas y nativas. Contacta con nosotros y te daremos un presupuesto sin compromiso."
   },
   {
     id: 2,
     title: "Diseño Ui/Ux",
-    img: "https://th.bing.com/th/id/OIG.FZnPOyqsh2fZYHvcYK6M?pid=ImgGn",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+    img: "img2.png",
+    desc: "¿Quieres que tu sitio web o aplicación móvil tenga un aspecto profesional, atractivo y funcional? te ofrecemos soluciones personalizadas para mejorar la experiencia de tus usuarios y aumentar tus conversiones. Contamos con un equipo de expertos en diseño de interfaces, usabilidad, accesibilidad y prototipado que te ayudarán a crear productos digitales de calidad. Ya sea que necesites diseñar desde cero o rediseñar tu proyecto existente, nosotros te asesoramos y acompañamos en todo el proceso. Contacta con nosotros y solicita un presupuesto sin compromiso.",
   },
-  {
-    id: 3,
-    title: "Vanilla JSS",
-    img: "https://th.bing.com/th/id/OIG.y1.epARQKBYS1y_o7KkD?pid=ImgGn",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-  },
-  {
-    id: 4,
-    title: "Diseño Ui",
-    img: "https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=400",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-  },
+  // {
+  //   id: 3,
+  //   title: "Vanilla JSS",
+  //   img: "https://th.bing.com/th/id/OIG.y1.epARQKBYS1y_o7KkD?pid=ImgGn",
+  //   desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Diseño Ui",
+  //   img: "https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=400",
+  //   desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+  // },
 ];
 const Single = ({ item }) => {
   const ref = useRef();
