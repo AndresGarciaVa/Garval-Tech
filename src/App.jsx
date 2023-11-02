@@ -30,7 +30,7 @@ const App = () => {
         <Services/>
       </section>
       
-      {/* <Portfolio/> */}
+      <Portfolio/>
       
       {/* <section id="Portfolio">
         <Parallax type="portfolio" />
