@@ -36,9 +36,9 @@ const App = () => {
         <Parallax type="portfolio" />
       </section> */}
 
-      {/* <section id="Contacto">
+      <section id="Contacto">
         <Contacto/>
-      </section> */}
+      </section>
 
       {/* <Test/> */}
     </div>
