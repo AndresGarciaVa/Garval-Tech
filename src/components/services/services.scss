@@ -19,7 +19,6 @@
       text-align: center;
       flex-direction: column;
       padding-top: 50px;
-
     }
 
     p {
@@ -57,7 +56,6 @@
     @include mobile {
       width: 100%;
       padding-bottom: 100px;
-
     }
 
     .title {
@@ -78,23 +76,20 @@
         object-fit: cover;
 
         @include mobile {
-            width: 250px;
-            height: 70px;
-          }
+          width: 250px;
+          height: 70px;
+        }
       }
-      
+
       h1 {
         font-size: 96px;
         font-weight: 100;
 
         @include mobile {
-            font-size: 36px;
-            padding-top: 15px;
-          }
+          font-size: 36px;
+          padding-top: 15px;
+        }
       }
-
-
-      
 
       button {
         width: 300px;
@@ -106,10 +101,10 @@
         cursor: pointer;
 
         @include mobile {
-            font-size: 16;
-            width: 150px;
-            height:50px;
-          }
+          font-size: 16;
+          width: 150px;
+          height: 50px;
+        }
       }
     }
   }
@@ -121,9 +116,9 @@
     margin: auto;
 
     @include mobile {
-        flex-direction: column;
-        width: 100%;
-      }
+      flex-direction: column;
+      width: 100%;
+    }
 
     .box {
       padding: 50px;
@@ -136,12 +131,12 @@
         border: none;
       }
 
-      p{
+      p {
         @include mobile {
-            display: none;
-            align-items: center;
-            gap: 10px;
-          }
+          display: none;
+          align-items: center;
+          gap: 10px;
+        }
       }
 
       button {
@@ -151,13 +146,13 @@
         cursor: pointer;
 
         @include mobile {
-            background-color: transparent;
-            border:1px solid orange;
-            border-radius:5px;
-            color: orange;
-            width: 50%;
-            padding: 5px;
-          }
+          background-color: transparent;
+          border: 1px solid orange;
+          border-radius: 5px;
+          color: orange;
+          width: 50%;
+          padding: 5px;
+        }
       }
     }
   }
