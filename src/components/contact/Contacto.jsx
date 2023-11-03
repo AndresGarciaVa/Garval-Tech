@@ -75,6 +75,7 @@ const Contacto = () => {
         </motion.div>
       </motion.div>
 
+
       <div className="formContainer">
         <motion.div
           className="phoneSvg"

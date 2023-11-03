@@ -51,12 +51,12 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Diseño y Desarrollo de aplicaciones Low-Code
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
+          {/* <motion.div variants={textVariants} className="buttons">
             {/* <motion.button variants={textVariants}>
               See the latest works
             </motion.button> */}
-            <motion.button variants={textVariants}>Contáctanos</motion.button>
-          </motion.div>
+            {/* <motion.button variants={textVariants}>Contáctanos</motion.button> */}
+          {/* </motion.div> */}
           <motion.img
             variants={textVariants}
             animate="scrollButton"
@@ -71,7 +71,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        El Poder De Crear
+        El Poder Del No-Code
       </motion.div>
 
       <div className="imageContainer">
