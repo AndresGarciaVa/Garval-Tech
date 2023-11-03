@@ -15,9 +15,9 @@ const navbar = () => {
             transition={{duration:0.5}}>
               </motion.img>
             <div className="social">
-                <a href="#"><img src="/facebook.png" alt="Facebook" /></a>
-                <a href="#"><img src="/instagram.png" alt="Instagram"/></a>
-                <a href="#"><img src="/tiktok.png" alt="Tiktok" /></a>
+                <a href="https://www.facebook.com/profile.php?id=61553253624756"><img src="/facebook.png" alt="Facebook" /></a>
+                <a href="https://instagram.com/garval.tecnologies?igshid=OGQ5ZDc2ODk2ZA=="><img src="/instagram.png" alt="Instagram"/></a>
+                <a href="https://www.tiktok.com/@garval.tech?_t=8h3ShZqCyBh&_r=1"><img src="/tiktok.png" alt="Tiktok" /></a>
 
             </div>
         </div>
