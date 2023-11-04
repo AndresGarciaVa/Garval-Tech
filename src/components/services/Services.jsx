@@ -67,12 +67,11 @@ return (
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-
           <h2>Personalizables</h2>
 
-            <p>
-            las plataformas low-code ofrecen la posibilidad <br/>de personalizar las aplicaciones según las<br/> necesidades y preferencias de<br/> los usuarios, crear funcionalidades a la medida, <br/>así como de integrarlas <br/>con otras fuentes de datos, pagos y servicios.
-            </p>
+          <p>
+          las plataformas low-code ofrecen la posibilidad de personalizar las aplicaciones según las necesidades y preferencias de los usuarios, crear funcionalidades a la medida, así como de integrarlas con otras fuentes de datos, pagos y servicios.
+          </p>
             
           {/* <button>Ir</button> */}
         </motion.div>
