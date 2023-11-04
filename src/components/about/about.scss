@@ -65,12 +65,13 @@
       }
 
       p {
-        font-size: 30px;
+        // font-size: 30px;
         line-height: 45px;
         text-align: center;
+        font-size: 2em;
 
         @include mobile {
-            font-size: 20px;
+            font-size: 1.5em;
             line-height: 30px;
             text-align:center;
             width: 330px;

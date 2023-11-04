@@ -45,13 +45,12 @@ const About = () => {
           <p>
             <motion.b>
               Somos una empresa que crea apps móviles low-code con FlutterFlow y
-              Firebase, dos plataformas que nos permiten <br />
+              Firebase, dos plataformas que nos permiten
               diseñar la interfaz y el backend de la app sin código. Te
               ofrecemos un servicio completo y personalizado, donde nos
-              <br />
               ocupamos de todo el desarrollo y la publicación de tu app. Nuestro
               servicio es ideal para PYMES, emprendedores,
-              <br /> freelancers, ONGs, y cualquier persona que tenga una idea
+              freelancers, ONGs, y cualquier persona que tenga una idea
               de forma rápida y económica.
             </motion.b>
           </p>
