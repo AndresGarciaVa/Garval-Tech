@@ -69,11 +69,12 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding-top: 50px;
 
 
     @include mobile {
       width: 100%;
-      // padding-bottom: 100px;
+      
     }
 
     .title {
@@ -129,22 +130,39 @@
   }
 
   .listContainer {
-    flex: 2;
+    flex: 1;
     display: flex;
-    max-width: 1366px;
-    margin: auto;
+    // max-width: 1920px;
+    // margin: 10px;
+    // margin-left: 50px;
+    
+    // align-items: center;
+    // justify-content: space-between;
+
+
 
     @include mobile {
       // flex-direction: column;
+      
+      
       width: 100%;
       flex-direction: row; /* Asegúrate de que los elementos estén en línea horizontalmente */
       overflow-x: auto; /* Permite el desplazamiento horizontal */
       // white-space: nowrap;
-
       // margin-top:20px;
       // margin-bottom:20px;
       // flex-wrap: wrap;
     }
+
+    .caja2{
+      // padding-bottom:auto;
+
+      p{
+        width: 430px;
+      }
+      
+    }
+
 
     .box {
       padding: 50px;
@@ -154,16 +172,20 @@
       border-radius: 15px;
       // height: auto;
       justify-content: space-between;
+
       
 
       @include mobile {
         // border: none;
         align-items: center;
+
         gap: 20px;
-        margin: 5px;
-        width: 440px;
+        // height: 350px;
+        // width: 440px;
         display: inline-block; /* Alinea los elementos en línea horizontalmente */
-        margin-right: 5px; 
+        margin-right: 10px; 
+
+
         
       }
 
