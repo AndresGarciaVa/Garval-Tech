@@ -35,7 +35,7 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <hr id="hr2" />
-        <p>
+        <p className="subtitulo">
           Somos tu aliado estratégico para impulsar el crecimiento y <br />
           el desarrollo de tu marca o idea.
         </p>
@@ -112,8 +112,7 @@ const Services = () => {
               específicas de cada dispositivo y sistema operativo. Esto
               significa que las aplicaciones low-code nativas pueden aprovechar
               al máximo las capacidades del hardware, como la cámara, el GPS, el
-              sensor de huellas dactilares, etc, y ofrecer una interfaz de
-              usuario más fluida, intuitiva y atractiva
+              sensor de huellas dactilares, etc,
             </p>
           </div>
           {/* <button>Ir</button> */}
